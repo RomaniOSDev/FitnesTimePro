@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		74A3C98D2EB1F80300DD63E7 /* OneSignalFramework in Frameworks */ = {isa = PBXBuildFile; productRef = 74A3C98C2EB1F80300DD63E7 /* OneSignalFramework */; };
 		74B565C92E9EB28F008F3E50 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B565BF2E9EB28F008F3E50 /* AppDelegate.swift */; };
 		74B565CA2E9EB28F008F3E50 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B565C62E9EB28F008F3E50 /* SceneDelegate.swift */; };
 		74B565CB2E9EB28F008F3E50 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B565C72E9EB28F008F3E50 /* ViewController.swift */; };
@@ -28,11 +29,17 @@
 		74B5660D2E9EB485008F3E50 /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B566062E9EB485008F3E50 /* HistoryView.swift */; };
 		74B5660E2E9EB485008F3E50 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B566072E9EB485008F3E50 /* OnboardingView.swift */; };
 		74B5660F2E9EB485008F3E50 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B566082E9EB485008F3E50 /* SettingsView.swift */; };
+		74D1A5D52EB1F6680046A5A5 /* OneSignalService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D1A5D32EB1F6680046A5A5 /* OneSignalService.swift */; };
+		74D1A5D62EB1F6680046A5A5 /* CheckLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D1A5D02EB1F6680046A5A5 /* CheckLink.swift */; };
+		74D1A5D72EB1F6680046A5A5 /* InternetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D1A5D12EB1F6680046A5A5 /* InternetViewController.swift */; };
+		74D1A5D82EB1F6680046A5A5 /* LoaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D1A5D22EB1F6680046A5A5 /* LoaderViewController.swift */; };
+		74E289022EA61E1D0073EB25 /* AppsFlyerLib in Frameworks */ = {isa = PBXBuildFile; productRef = 74E289012EA61E1D0073EB25 /* AppsFlyerLib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4B297EEA808FFEA3C37319AC /* Pods_FitnesTimePro.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FitnesTimePro.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		53C83BBCB2A67724FC5A9A04 /* Pods-FitnesTimePro.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FitnesTimePro.debug.xcconfig"; path = "Target Support Files/Pods-FitnesTimePro/Pods-FitnesTimePro.debug.xcconfig"; sourceTree = "<group>"; };
+		74A3C98E2EB1F80B00DD63E7 /* FitnesTimePro.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FitnesTimePro.entitlements; sourceTree = "<group>"; };
 		74B565A72E9EB26C008F3E50 /* FitnesTimePro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FitnesTimePro.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		74B565BF2E9EB28F008F3E50 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		74B565C02E9EB28F008F3E50 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -56,6 +63,10 @@
 		74B566062E9EB485008F3E50 /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
 		74B566072E9EB485008F3E50 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		74B566082E9EB485008F3E50 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		74D1A5D02EB1F6680046A5A5 /* CheckLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckLink.swift; sourceTree = "<group>"; };
+		74D1A5D12EB1F6680046A5A5 /* InternetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetViewController.swift; sourceTree = "<group>"; };
+		74D1A5D22EB1F6680046A5A5 /* LoaderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoaderViewController.swift; sourceTree = "<group>"; };
+		74D1A5D32EB1F6680046A5A5 /* OneSignalService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneSignalService.swift; sourceTree = "<group>"; };
 		E4E296A3C59DDC7E54E9DA43 /* Pods-FitnesTimePro.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FitnesTimePro.release.xcconfig"; path = "Target Support Files/Pods-FitnesTimePro/Pods-FitnesTimePro.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -64,6 +75,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74A3C98D2EB1F80300DD63E7 /* OneSignalFramework in Frameworks */,
+				74E289022EA61E1D0073EB25 /* AppsFlyerLib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,6 +112,7 @@
 		74B565C82E9EB28F008F3E50 /* FitnesTimePro */ = {
 			isa = PBXGroup;
 			children = (
+				74A3C98E2EB1F80B00DD63E7 /* FitnesTimePro.entitlements */,
 				74B565BF2E9EB28F008F3E50 /* AppDelegate.swift */,
 				74B565C02E9EB28F008F3E50 /* Assets.xcassets */,
 				74B565C12E9EB28F008F3E50 /* Info.plist */,
@@ -145,8 +159,20 @@
 				74B566062E9EB485008F3E50 /* HistoryView.swift */,
 				74B566072E9EB485008F3E50 /* OnboardingView.swift */,
 				74B566082E9EB485008F3E50 /* SettingsView.swift */,
+				74D1A5D42EB1F6680046A5A5 /* LoadingView */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		74D1A5D42EB1F6680046A5A5 /* LoadingView */ = {
+			isa = PBXGroup;
+			children = (
+				74D1A5D02EB1F6680046A5A5 /* CheckLink.swift */,
+				74D1A5D12EB1F6680046A5A5 /* InternetViewController.swift */,
+				74D1A5D22EB1F6680046A5A5 /* LoaderViewController.swift */,
+				74D1A5D32EB1F6680046A5A5 /* OneSignalService.swift */,
+			);
+			path = LoadingView;
 			sourceTree = "<group>";
 		};
 		E3AD628E98CE6DD532D8FEA8 /* Pods */ = {
@@ -203,6 +229,10 @@
 				Base,
 			);
 			mainGroup = 74B5659E2E9EB26C008F3E50;
+			packageReferences = (
+				74E289002EA61E1D0073EB25 /* XCRemoteSwiftPackageReference "AppsFlyerFramework" */,
+				74A3C98B2EB1F80300DD63E7 /* XCRemoteSwiftPackageReference "OneSignal-iOS-SDK" */,
+			);
 			productRefGroup = 74B565A82E9EB26C008F3E50 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -268,6 +298,10 @@
 				74B565FB2E9EB480008F3E50 /* BreathingBackgroundView.swift in Sources */,
 				74B565FC2E9EB480008F3E50 /* CustomInputField.swift in Sources */,
 				74B565FD2E9EB480008F3E50 /* CustomSegmentedPicker.swift in Sources */,
+				74D1A5D52EB1F6680046A5A5 /* OneSignalService.swift in Sources */,
+				74D1A5D62EB1F6680046A5A5 /* CheckLink.swift in Sources */,
+				74D1A5D72EB1F6680046A5A5 /* InternetViewController.swift in Sources */,
+				74D1A5D82EB1F6680046A5A5 /* LoaderViewController.swift in Sources */,
 				74B565FE2E9EB480008F3E50 /* FitnessCard.swift in Sources */,
 				74B565FF2E9EB480008F3E50 /* ParticleEffectView.swift in Sources */,
 				74B565F22E9EB3B2008F3E50 /* StartView.swift in Sources */,
@@ -304,6 +338,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = FitnesTimePro/FitnesTimePro.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -318,7 +353,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.phu.f1tn3sst1m3p0r;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
@@ -341,6 +376,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = FitnesTimePro/FitnesTimePro.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -355,7 +391,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.phu.f1tn3sst1m3p0r;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
@@ -513,6 +549,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		74A3C98B2EB1F80300DD63E7 /* XCRemoteSwiftPackageReference "OneSignal-iOS-SDK" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/OneSignal/OneSignal-iOS-SDK";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.2.15;
+			};
+		};
+		74E289002EA61E1D0073EB25 /* XCRemoteSwiftPackageReference "AppsFlyerFramework" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AppsFlyerSDK/AppsFlyerFramework";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.17.7;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		74A3C98C2EB1F80300DD63E7 /* OneSignalFramework */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 74A3C98B2EB1F80300DD63E7 /* XCRemoteSwiftPackageReference "OneSignal-iOS-SDK" */;
+			productName = OneSignalFramework;
+		};
+		74E289012EA61E1D0073EB25 /* AppsFlyerLib */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 74E289002EA61E1D0073EB25 /* XCRemoteSwiftPackageReference "AppsFlyerFramework" */;
+			productName = AppsFlyerLib;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 74B5659F2E9EB26C008F3E50 /* Project object */;
 }
